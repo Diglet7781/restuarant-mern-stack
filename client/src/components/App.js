@@ -5,7 +5,10 @@ import Home from './Home';
 import Signup from './Signup';
 import Signin from './Signin';
 import NotFound from './NotFound';
-
+import AdminDashboard from './AdminDashboard';
+import UserDashboard from './UserDashboard';
+import AdminRoute from './AdminRoute';
+import UserRoute from './UserRoute';
 const App = ()=> (
     <BrowserRouter>
       <Header />
@@ -14,6 +17,16 @@ const App = ()=> (
           <Route exact path='/' component={Home} />
           <Route exact path='/Signup' component={Signup} />
           <Route exact path='/Signin' component={Signin} />
+          <AdminRoute 
+            exact
+            path='/admin/dashboard'
+            component={AdminDashboard} 
+          />
+          <UserRoute 
+            exact 
+            path='/user/dashboard' 
+            component={UserDashboard} 
+          />
           <Route component={NotFound} />
         </Switch>
       </main>

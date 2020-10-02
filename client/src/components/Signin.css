@@ -1,0 +1,6 @@
+.signin-container{
+    background-image: url('./signin-bkg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
