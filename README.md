@@ -1,7 +1,7 @@
-# restuarant-mern-stack
-resturant application using MERN stack
+# restaurant-mern-stack
+restaurant application using MERN stack
 
-This is an online resturant application
+This is an online restaurant application
 Admin can add food into the resturant
 customer can order food from the resturant
 
